@@ -2,7 +2,7 @@ import telebot
 import os
 
 # Вставь сюда токен своего нового или очищенного бота из @BotFather
-TOKEN = '8997502471:AAGtvaXVifG4U9J2nz6HGfUD6Mv9eNBkTOE'
+TOKEN = os.environ.get'8997502471:AAGtvaXVifG4U9J2nz6HGfUD6Mv9eNBkTOE'
 bot = telebot.TeleBot(TOKEN)
 
 # Список Telegram ID тех, кто может менять расписание (ты и твой друг)
